@@ -1,0 +1,17 @@
+repositories << "http://scala-tools.org/repo-releases/"
+
+project "Sitebricks :: Parent" @ "https://github.com/dhanji/sitebricks"
+  id: com.google.sitebricks:sitebricks:0.8.7-SNAPSHOT
+  packaging: jar
+
+  properties: [ org.testng.version: 5.8
+                org.mortbay.jetty.version: 6.1.9
+                guice.version: 3.0
+                ch.qos.logback.version: 0.9.9
+                org.seleniumhq.webdriver.version: 0.9.7376
+                org.codehaus.jackson.version: 1.8.0 ]
+
+  plugins: [ org.apache.maven.plugins:maven-compiler-plugin:2.3.2
+               properties:[ source: 1.6
+                            target: 1.6 ] ]
+
