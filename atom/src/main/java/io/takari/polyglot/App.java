@@ -5,6 +5,6 @@ import java.lang.System;
 
 public final class App {
   public static void main(String[] args) {
-    System.out.println("Hello from Maven's Groovy Love!");
+    System.out.println("Greetings from Atomic Maven *bzzt*");
   }
 }
