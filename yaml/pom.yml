@@ -1,0 +1,7 @@
+modelVersion: 4.0.0
+groupId: io.takari.polyglot
+artifactId: yaml-project
+version: 0.0.1-SNAPSHOT
+name: 'YAML Maven Love'
+
+properties: {sisuInjectVersion: 0.0.0.M2a, teslaVersion: 3.1.0}
