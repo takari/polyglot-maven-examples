@@ -1,8 +1,11 @@
+import org.junit.runner.RunWith
 import org.scalatest._
-import org.scalatest.matchers.ShouldMatchers
+import org.scalatest.junit.JUnitRunner
+import org.scalatest.Matchers
 
-class HelloSpec extends FlatSpec with ShouldMatchers {
+@RunWith(classOf[JUnitRunner])
+class HelloSpec extends FlatSpec with Matchers {
   "Hello" should "have tests" in {
-    true should be === true
+    true shouldBe true
   }
 }
