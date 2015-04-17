@@ -11,8 +11,8 @@ ScalaModel(
   ),
   build = Build(
     tasks = Seq(Task("someTaskId", "verify") { ec =>
-      println("I'm Scala running during the verify phase. The ec passed in allows me to access the project")
+      println(s"I'm Scala running during the verify phase. The ec passed in allows me to access the project, e.g. the baseDir: ${ec.basedir}")
     })
-  ),  
+  ),
   modelVersion = "4.0.0"
 )
