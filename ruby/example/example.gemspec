@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
 
   s.add_runtime_dependency 'jar-dependencies', '~>0.0.6'
 
-  s.requirements << "jar org.bouncycastle:bcpkix-jdk15on, 1.49"
-  s.requirements << "jar org.bouncycastle:bcprov-jdk15on, 1.49"
+  s.requirements << "jar org.bouncycastle:bcpkix-jdk15on, 1.55"
+  s.requirements << "jar org.bouncycastle:bcprov-jdk15on, 1.55"
 
   s.add_development_dependency 'rspec', '~> 2.14.0'
   s.add_development_dependency 'rake', '~> 10.3.2'
