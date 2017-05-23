@@ -14,13 +14,13 @@
   </developers>
   <properties>
     <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
-    <jruby.plugins.version>1.0.4</jruby.plugins.version>
+    <jruby.plugins.version>1.0.9</jruby.plugins.version>
   </properties>
   <dependencies>
     <dependency>
       <groupId>rubygems</groupId>
       <artifactId>jar-dependencies</artifactId>
-      <version>[0.0.6,0.0.99999]</version>
+      <version>[0.3.2,0.3.99999]</version>
       <type>gem</type>
     </dependency>
     <dependency>
