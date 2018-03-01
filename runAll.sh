@@ -1,12 +1,12 @@
 #!/bin/bash
 cd atom
-mvn clean install
+mvn clean install -U
 cd ../groovy
-mvn clean install
+mvn clean install -U
 cd ../ruby
-mvn clean install
+mvn clean install -U
 cd ../scala
-mvn clean install
+mvn clean install -U
 cd ../yaml
-mvn clean install
+mvn clean install -U
 
