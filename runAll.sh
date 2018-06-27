@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 cd atom
 mvn clean install -U
 cd ../groovy
