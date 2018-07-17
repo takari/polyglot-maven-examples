@@ -13,4 +13,6 @@ cd ../yaml
 mvn clean install -U
 cd ../java
 mvn clean install -U
+cd ../kotlin
+mvn clean install -U
 
