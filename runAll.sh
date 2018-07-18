@@ -1,18 +1,24 @@
 #!/bin/bash
 set -e
 
-cd atom
-mvn clean install -U
-cd ../groovy
-mvn clean install -U
-cd ../ruby
-mvn clean install -U
-cd ../scala
-mvn clean install -U
-cd ../yaml
-mvn clean install -U
-cd ../java
-mvn clean install -U
-cd ../kotlin
-mvn clean install -U
+polytest () {
+  printf "=====================================================\n\n"
+  printf "          Testing polyglot-$1 started. \n\n"
+  printf "=====================================================\n\n"
+  cd $1
+  mvn clean install -U
+  printf "=====================================================\n\n"
+  printf "          Testing polyglot-$1 completed. \n\n"
+  printf "=====================================================\n\n"
+  cd ..
+}
+
+polytest atom
+polytest groovy
+polytest ruby
+polytest scala
+polytest yaml
+polytest java
+polytest kotlin
+
 
