@@ -1,13 +1,16 @@
-# Polyglot for Maven 
+# Polyglot for Maven Examples 
 
----
+This repository serves as a body of working example projects for the supported
+Polyglot DSLs and markups.
 
-**Note that to use any of the example projects you must be using Maven 3.3.1 or higher.**
+## Usage
 
----
+The `master` branch contains the current development branch of the dialect.
+Tags for past release are available as well. 
 
-This repository serves as a body of working example projects for the supported Polyglot DSLs and markups.
+Use the `runAll.sh` script in the top level folder or just run 
+`mvn clean install` in any dialect folder you are interested in.
 
-If you're interested in fleshing out the examples then you might want to look through tests for the various providers here:
-
-<https://github.com/takari/polyglot-maven>
+If you want to learn more and potentially improved the examples, take a look
+at the tests for the various providers in the 
+[polyglot-maven implementation project](https://github.com/takari/polyglot-maven).
