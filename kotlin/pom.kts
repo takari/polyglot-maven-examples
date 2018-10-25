@@ -1,6 +1,6 @@
 project {
     name = "Polyglot :: Kotlin"
-    parent = "io.takari.polyglot:polyglot:0.3.2"
+    parent = "io.takari.polyglot:polyglot:0.3.3-SNAPSHOT"
     artifactId = "regular-project"
     packaging = jar
 
@@ -22,7 +22,7 @@ project {
                 "org.jetbrains.kotlin:kotlin-test-junit:${it["kotlin.version"]}"
         )
         provided(
-                "io.takari.polyglot:polyglot-kotlin:0.3.2",
+                "io.takari.polyglot:polyglot-kotlin:0.3.3-SNAPSHOT",
                 "org.apache.maven.plugin-tools:maven-plugin-annotations:LATEST"
         )
     }

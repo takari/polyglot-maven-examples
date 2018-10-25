@@ -3,6 +3,6 @@
   <extension>
     <groupId>io.takari.polyglot</groupId>
     <artifactId>polyglot-java</artifactId>
-    <version>0.3.2</version>
+    <version>0.3.3-SNAPSHOT</version>
   </extension>
 </extensions>
