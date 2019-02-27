@@ -25,8 +25,8 @@ project("Polyglot :: Kotlin") {
         // External script execution
         execute(id = "hello-script", phase = "validate", script = "src/build/scripts/Hello.kts")
 
-        sourceDirectory = "\${project.basedir}/src/main/kotlin"
-        testSourceDirectory = "\${project.basedir}/src/test/kotlin"
+        sourceDirectory = "src/main/kotlin"
+        testSourceDirectory = "/src/test/kotlin"
 
         pluginManagement {
             plugins {
