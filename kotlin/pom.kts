@@ -10,9 +10,9 @@ project("Polyglot :: Kotlin") {
     dependencies {
         compile("org.jetbrains.kotlin:kotlin-stdlib:$kotlinVersion")
         compile("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.0.0")
-            .excluding("org.jetbrains.kotlin:kotlin-stdlib")
+            .exclusions("org.jetbrains.kotlin:kotlin-stdlib")
 
-        test("junit:junit:$junitVersion").excluding("org.hamcrest:hamcrest-core")
+        test("junit:junit:$junitVersion").exclusions("org.hamcrest:hamcrest-core")
         test("org.jetbrains.kotlin:kotlin-test-junit:$kotlinVersion")
     }
 
