@@ -10,3 +10,4 @@ target
 lib
 pkg
 .polyglot-cache
+.polyglot.pom.*
